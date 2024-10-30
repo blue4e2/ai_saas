@@ -1,8 +1,4 @@
-import React, { ReactNode } from 'react'
-
-interface LayoutProps {
-    children: ReactNode
-}
+import React from 'react'
 
 const Layout = ({ children }: {children: React.ReactNode}) => {
   return (
